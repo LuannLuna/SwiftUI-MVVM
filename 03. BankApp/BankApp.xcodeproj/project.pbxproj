@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A48097562817253800A4D2C9 /* BankAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48097552817253800A4D2C9 /* BankAppApp.swift */; };
+		A480975A2817253C00A4D2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48097592817253C00A4D2C9 /* Assets.xcassets */; };
+		A480975D2817253C00A4D2C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A480975C2817253C00A4D2C9 /* Preview Assets.xcassets */; };
+		A480976A281725CC00A4D2C9 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4809769281725CB00A4D2C9 /* Double+Extensions.swift */; };
+		A480976C2817264700A4D2C9 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480976B2817264700A4D2C9 /* URL+Extensions.swift */; };
+		A480976E2817269600A4D2C9 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480976D2817269600A4D2C9 /* View+Extensions.swift */; };
+		A48097702817270700A4D2C9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480976F2817270700A4D2C9 /* Account.swift */; };
+		A48097722817278E00A4D2C9 /* AccountServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48097712817278D00A4D2C9 /* AccountServices.swift */; };
+		A48097742817291800A4D2C9 /* AccountSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48097732817291800A4D2C9 /* AccountSummaryViewModel.swift */; };
+		A480977628172ADC00A4D2C9 /* AccountSummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480977528172ADC00A4D2C9 /* AccountSummaryScreen.swift */; };
+		A480977828172BCA00A4D2C9 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480977728172BCA00A4D2C9 /* AccountListView.swift */; };
+		A480979A2819A46800A4D2C9 /* CreateAccountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48097992819A46700A4D2C9 /* CreateAccountRequest.swift */; };
+		A480979C2819A4D900A4D2C9 /* CreateAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480979B2819A4D900A4D2C9 /* CreateAccountResponse.swift */; };
+		A480979E2819A5FC00A4D2C9 /* AddAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480979D2819A5FC00A4D2C9 /* AddAccountViewModel.swift */; };
+		A48097A02819A8D500A4D2C9 /* AddAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480979F2819A8D500A4D2C9 /* AddAccountScreen.swift */; };
+		A48097A22819CD7900A4D2C9 /* TransferAccountFundRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48097A12819CD7800A4D2C9 /* TransferAccountFundRequest.swift */; };
+		A48097A42819CDFB00A4D2C9 /* TransferFundsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48097A32819CDFB00A4D2C9 /* TransferFundsResponse.swift */; };
+		A48097A6281ACB3B00A4D2C9 /* TransferFundsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48097A5281ACB3B00A4D2C9 /* TransferFundsViewModel.swift */; };
+		A48097A8281ACC4500A4D2C9 /* TransferFundsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48097A7281ACC4500A4D2C9 /* TransferFundsScreen.swift */; };
+		A48097AA281ACE0700A4D2C9 /* TransferFundsAccountSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48097A9281ACE0700A4D2C9 /* TransferFundsAccountSelectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A48097522817253800A4D2C9 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48097552817253800A4D2C9 /* BankAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAppApp.swift; sourceTree = "<group>"; };
+		A48097592817253C00A4D2C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A480975C2817253C00A4D2C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4809769281725CB00A4D2C9 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		A480976B2817264700A4D2C9 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		A480976D2817269600A4D2C9 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		A480976F2817270700A4D2C9 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		A48097712817278D00A4D2C9 /* AccountServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountServices.swift; sourceTree = "<group>"; };
+		A48097732817291800A4D2C9 /* AccountSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewModel.swift; sourceTree = "<group>"; };
+		A480977528172ADC00A4D2C9 /* AccountSummaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryScreen.swift; sourceTree = "<group>"; };
+		A480977728172BCA00A4D2C9 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		A48097992819A46700A4D2C9 /* CreateAccountRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountRequest.swift; sourceTree = "<group>"; };
+		A480979B2819A4D900A4D2C9 /* CreateAccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountResponse.swift; sourceTree = "<group>"; };
+		A480979D2819A5FC00A4D2C9 /* AddAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewModel.swift; sourceTree = "<group>"; };
+		A480979F2819A8D500A4D2C9 /* AddAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountScreen.swift; sourceTree = "<group>"; };
+		A48097A12819CD7800A4D2C9 /* TransferAccountFundRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferAccountFundRequest.swift; sourceTree = "<group>"; };
+		A48097A32819CDFB00A4D2C9 /* TransferFundsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundsResponse.swift; sourceTree = "<group>"; };
+		A48097A5281ACB3B00A4D2C9 /* TransferFundsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundsViewModel.swift; sourceTree = "<group>"; };
+		A48097A7281ACC4500A4D2C9 /* TransferFundsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundsScreen.swift; sourceTree = "<group>"; };
+		A48097A9281ACE0700A4D2C9 /* TransferFundsAccountSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFundsAccountSelectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A480974F2817253800A4D2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A48097492817253800A4D2C9 = {
+			isa = PBXGroup;
+			children = (
+				A48097542817253800A4D2C9 /* BankApp */,
+				A48097532817253800A4D2C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A48097532817253800A4D2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A48097522817253800A4D2C9 /* BankApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48097542817253800A4D2C9 /* BankApp */ = {
+			isa = PBXGroup;
+			children = (
+				A48097682817258200A4D2C9 /* Screens */,
+				A48097672817257500A4D2C9 /* Extensions */,
+				A48097662817256900A4D2C9 /* Models */,
+				A48097652817256300A4D2C9 /* Views */,
+				A48097642817255C00A4D2C9 /* Services */,
+				A48097632817254B00A4D2C9 /* ViewModels */,
+				A48097552817253800A4D2C9 /* BankAppApp.swift */,
+				A48097592817253C00A4D2C9 /* Assets.xcassets */,
+				A480975B2817253C00A4D2C9 /* Preview Content */,
+			);
+			path = BankApp;
+			sourceTree = "<group>";
+		};
+		A480975B2817253C00A4D2C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A480975C2817253C00A4D2C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A48097632817254B00A4D2C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A48097732817291800A4D2C9 /* AccountSummaryViewModel.swift */,
+				A480979D2819A5FC00A4D2C9 /* AddAccountViewModel.swift */,
+				A48097A5281ACB3B00A4D2C9 /* TransferFundsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A48097642817255C00A4D2C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A48097712817278D00A4D2C9 /* AccountServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A48097652817256300A4D2C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A480977728172BCA00A4D2C9 /* AccountListView.swift */,
+				A48097A9281ACE0700A4D2C9 /* TransferFundsAccountSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A48097662817256900A4D2C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A480976F2817270700A4D2C9 /* Account.swift */,
+				A48097992819A46700A4D2C9 /* CreateAccountRequest.swift */,
+				A480979B2819A4D900A4D2C9 /* CreateAccountResponse.swift */,
+				A48097A12819CD7800A4D2C9 /* TransferAccountFundRequest.swift */,
+				A48097A32819CDFB00A4D2C9 /* TransferFundsResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A48097672817257500A4D2C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4809769281725CB00A4D2C9 /* Double+Extensions.swift */,
+				A480976B2817264700A4D2C9 /* URL+Extensions.swift */,
+				A480976D2817269600A4D2C9 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A48097682817258200A4D2C9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A480977528172ADC00A4D2C9 /* AccountSummaryScreen.swift */,
+				A480979F2819A8D500A4D2C9 /* AddAccountScreen.swift */,
+				A48097A7281ACC4500A4D2C9 /* TransferFundsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A48097512817253800A4D2C9 /* BankApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48097602817253C00A4D2C9 /* Build configuration list for PBXNativeTarget "BankApp" */;
+			buildPhases = (
+				A480974E2817253800A4D2C9 /* Sources */,
+				A480974F2817253800A4D2C9 /* Frameworks */,
+				A48097502817253800A4D2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankApp;
+			productName = BankApp;
+			productReference = A48097522817253800A4D2C9 /* BankApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A480974A2817253800A4D2C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A48097512817253800A4D2C9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A480974D2817253800A4D2C9 /* Build configuration list for PBXProject "BankApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A48097492817253800A4D2C9;
+			productRefGroup = A48097532817253800A4D2C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48097512817253800A4D2C9 /* BankApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A48097502817253800A4D2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A480975D2817253C00A4D2C9 /* Preview Assets.xcassets in Resources */,
+				A480975A2817253C00A4D2C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A480974E2817253800A4D2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A480977828172BCA00A4D2C9 /* AccountListView.swift in Sources */,
+				A480977628172ADC00A4D2C9 /* AccountSummaryScreen.swift in Sources */,
+				A48097A8281ACC4500A4D2C9 /* TransferFundsScreen.swift in Sources */,
+				A480976A281725CC00A4D2C9 /* Double+Extensions.swift in Sources */,
+				A48097A22819CD7900A4D2C9 /* TransferAccountFundRequest.swift in Sources */,
+				A480976C2817264700A4D2C9 /* URL+Extensions.swift in Sources */,
+				A480979C2819A4D900A4D2C9 /* CreateAccountResponse.swift in Sources */,
+				A48097722817278E00A4D2C9 /* AccountServices.swift in Sources */,
+				A480979E2819A5FC00A4D2C9 /* AddAccountViewModel.swift in Sources */,
+				A48097AA281ACE0700A4D2C9 /* TransferFundsAccountSelectionView.swift in Sources */,
+				A48097A6281ACB3B00A4D2C9 /* TransferFundsViewModel.swift in Sources */,
+				A480976E2817269600A4D2C9 /* View+Extensions.swift in Sources */,
+				A48097562817253800A4D2C9 /* BankAppApp.swift in Sources */,
+				A48097702817270700A4D2C9 /* Account.swift in Sources */,
+				A48097A42819CDFB00A4D2C9 /* TransferFundsResponse.swift in Sources */,
+				A48097A02819A8D500A4D2C9 /* AddAccountScreen.swift in Sources */,
+				A48097742817291800A4D2C9 /* AccountSummaryViewModel.swift in Sources */,
+				A480979A2819A46800A4D2C9 /* CreateAccountRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A480975E2817253C00A4D2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A480975F2817253C00A4D2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A48097612817253C00A4D2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BankApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WQWCUMF3L5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luannluna.BankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A48097622817253C00A4D2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BankApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WQWCUMF3L5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luannluna.BankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A480974D2817253800A4D2C9 /* Build configuration list for PBXProject "BankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A480975E2817253C00A4D2C9 /* Debug */,
+				A480975F2817253C00A4D2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48097602817253C00A4D2C9 /* Build configuration list for PBXNativeTarget "BankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48097612817253C00A4D2C9 /* Debug */,
+				A48097622817253C00A4D2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A480974A2817253800A4D2C9 /* Project object */;
+}
